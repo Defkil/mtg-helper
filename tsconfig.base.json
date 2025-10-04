@@ -10,11 +10,153 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mtg-helper/ui/accordion": [
+        "libs/ui/ui-accordion-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/alert": [
+        "libs/ui/ui-alert-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/alert-dialog": [
+        "libs/ui/ui-alert-dialog-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/aspect-ratio": [
+        "libs/ui/ui-aspect-ratio-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/autocomplete": [
+        "libs/ui/ui-autocomplete-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/avatar": [
+        "libs/ui/ui-avatar-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/badge": [
+        "libs/ui/ui-badge-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/breadcrumb": [
+        "libs/ui/ui-breadcrumb-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/button": [
+        "libs/ui/ui-button-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/calendar": [
+        "libs/ui/ui-calendar-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/card": [
+        "libs/ui/ui-card-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/carousel": [
+        "libs/ui/ui-carousel-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/checkbox": [
+        "libs/ui/ui-checkbox-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/command": [
+        "libs/ui/ui-command-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/date-picker": [
+        "libs/ui/ui-date-picker-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/dialog": [
+        "libs/ui/ui-dialog-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/form-field": [
+        "libs/ui/ui-form-field-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/hover-card": [
+        "libs/ui/ui-hover-card-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/icon": [
+        "libs/ui/ui-icon-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/input": [
+        "libs/ui/ui-input-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/input-group": [
+        "libs/ui/ui-input-group-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/input-otp": [
+        "libs/ui/ui-input-otp-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/label": [
+        "libs/ui/ui-label-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/menu": [
+        "libs/ui/ui-menu-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/pagination": [
+        "libs/ui/ui-pagination-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/popover": [
+        "libs/ui/ui-popover-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/progress": [
+        "libs/ui/ui-progress-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/radio-group": [
+        "libs/ui/ui-radio-group-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/scroll-area": [
+        "libs/ui/ui-scroll-area-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/select": [
+        "libs/ui/ui-select-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/separator": [
+        "libs/ui/ui-separator-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/sheet": [
+        "libs/ui/ui-sheet-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/sidebar": [
+        "libs/ui/ui-sidebar-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/skeleton": [
+        "libs/ui/ui-skeleton-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/slider": [
+        "libs/ui/ui-slider-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/sonner": [
+        "libs/ui/ui-sonner-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/spinner": [
+        "libs/ui/ui-spinner-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/switch": [
+        "libs/ui/ui-switch-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/table": [
+        "libs/ui/ui-table-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/tabs": [
+        "libs/ui/ui-tabs-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/toggle": [
+        "libs/ui/ui-toggle-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/toggle-group": [
+        "libs/ui/ui-toggle-group-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/tooltip": [
+        "libs/ui/ui-tooltip-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/typography": [
+        "libs/ui/ui-typography-helm/src/index.ts"
+      ],
+      "@mtg-helper/ui/utils": [
+        "libs/ui/ui-utils-helm/src/index.ts"
+      ]
+    }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
