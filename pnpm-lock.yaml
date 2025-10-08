@@ -56,9 +56,6 @@ importers:
       tailwind-merge:
         specifier: ^2.5.2
         version: 2.6.0
-      zone.js:
-        specifier: ~0.15.0
-        version: 0.15.1
     devDependencies:
       '@analogjs/vite-plugin-angular':
         specifier: ~1.19.1
@@ -15279,4 +15276,5 @@ snapshots:
 
   zod@3.25.76: {}
 
-  zone.js@0.15.1: {}
+  zone.js@0.15.1:
+    optional: true

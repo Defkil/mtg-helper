@@ -20,8 +20,7 @@
     "embla-carousel-angular": ">=19.0.0",
     "ngx-sonner": ">=3.0.0",
     "rxjs": "~7.8.0",
-    "tailwind-merge": "^2.5.2",
-    "zone.js": "~0.15.0"
+    "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
     "@analogjs/vite-plugin-angular": "~1.19.1",
