@@ -12,7 +12,7 @@
       "options": {
         "outputPath": "dist/apps/mtg-helper",
         "browser": "apps/mtg-helper/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [],
         "tsConfig": "apps/mtg-helper/tsconfig.app.json",
         "assets": [
           {
