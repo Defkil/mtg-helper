@@ -1,1 +1,2 @@
+- https://scryfall.com/docs/api
 - https://commanderspellbook.com/about/
