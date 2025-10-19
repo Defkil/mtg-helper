@@ -79,7 +79,8 @@
     },
     "@nx/angular:library": {
       "linter": "eslint",
-      "unitTestRunner": "none"
+      "style": "css",
+      "unitTestRunner": "vitest"
     },
     "@nx/angular:component": {
       "style": "css"
